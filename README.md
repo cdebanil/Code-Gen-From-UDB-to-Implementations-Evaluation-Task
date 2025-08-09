@@ -48,7 +48,7 @@ The project has been tested to ensure round-trip consistency: generating YAML fr
    ```
    make generate-yaml
    ```
-   This runs `./ctoyml generated.yaml` and produces `generated.yaml`.
+   This runs `./cToYaml generated.yaml` and produces `generated.yaml`.
 
 4. Regenerate the header from `generated.yaml`:
    ```
@@ -60,7 +60,7 @@ The project has been tested to ensure round-trip consistency: generating YAML fr
    ```
    make regenerate-yaml
    ```
-   This runs `./ctoyml regenerated.yaml` and produces `regenerated.yaml`.
+   This runs `./cToYaml regenerated.yaml` and produces `regenerated.yaml`.
 
 6. Verify consistency (should show no differences):
    ```
